@@ -1,0 +1,6 @@
+nohup: ignoring input
+The playit service is running, but its IPC socket does not exist yet:
+  /run/playit/playitd.sock
+
+Restart the service, then try again:
+  sudo systemctl restart playit
